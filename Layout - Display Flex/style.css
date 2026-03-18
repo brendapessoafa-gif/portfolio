@@ -18,6 +18,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #9953db;
+    height: 60px;
  }
 
 nav {
@@ -37,8 +39,10 @@ nav {
 
 section {
     border: solid 1px rgb(22, 243, 121);
+    height: 700px;
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -91,10 +95,10 @@ section {
     height: 30px;
     width: 20%;
     color: aliceblue;
-    border-color: rgb(153, 83, 219);
+    border-color: #9953db;
 }
 
-.img {
+.imagemSite {
     border: solid 1px rgb(22, 243, 121);
     height: 600px;
     width: 36%;
@@ -104,6 +108,10 @@ section {
     align-items: center;
 
 }
+.imagemSite img{
+    display: flex;
+    height: 600px;
+}
 
 footer {
     border: solid 1px green;
@@ -112,9 +120,16 @@ footer {
     height: 300px;
 }
 
-.fraseM {
+.icones {
     border: solid 1px green;
-    height: 150px;
-    width: 40%;
-    margin: 20px;
+    height: 100px;
+    width: 80%;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icones img {
+    height: 60px;
 }
