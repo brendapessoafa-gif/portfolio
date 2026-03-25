@@ -1,3 +1,72 @@
 @media (max-width: 1024px) {
-    
+    *{
+        box-sizing: border-box;
+    }
+
+    .contatos {
+        display: none;
+    }
+
+    .hamburguer {
+        display: block;
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        height: 50px;
+        align-items: center;
+    }
+
+    .menu-hamburguer {
+        height: 30px;
+        border: 0px;
+        font-size: 20px;
+
+    }
+
+    .imagemSite {
+        display: none;
+    }
+
+    .texto {
+        width: 90%;
+        flex-direction: column;
+        height: 600px;
+    }
+    .imgResp{
+         display: block;
+    }
+
+    .imgResp img{
+        border: solid 2px #9953db;
+        height: 300px;
+        border-radius: 20px;
+    }
+
+    .paragrafo {
+        height: 200px;
+
+    }
+
+    .butao {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .butao button {
+        width: 30%;
+
+    }
+
+    .icones {
+        height: 50px;
+
+    }
+
+    .icones img {
+    height: 30px;
+}
+
+
 }

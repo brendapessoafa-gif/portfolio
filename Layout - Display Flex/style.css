@@ -10,6 +10,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 60px;
  }
 
  .logo {
@@ -21,6 +22,7 @@ header {
     color: #9953db;
     height: 60px;
  }
+
 
 nav {
     border: solid 1px rgb(22, 243, 121);
@@ -35,6 +37,11 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 30px;
+}
+
+.hamburguer {
+    display: none;
+
 }
 
 section {
@@ -55,6 +62,11 @@ section {
     justify-content: space-around;
     align-items: center;
     margin-top: 50px;
+}
+
+.imgResp {
+    display: none;
+
 }
 
 .titulo {
@@ -96,6 +108,13 @@ section {
     width: 20%;
     color: aliceblue;
     border-color: #9953db;
+    border-radius: 20px;
+
+}
+
+.butao :hover {
+    background-color: #9953db;
+    border-color: white;
 }
 
 .imagemSite {
